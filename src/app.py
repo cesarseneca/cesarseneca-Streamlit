@@ -23,7 +23,7 @@ st.title("Diabetes")
 val1 = st.slider("Pregnancies", min_value=0.0, max_value=15.0, step=0.1)
 val2 = st.slider("Glucose", min_value=44.0, max_value=198.0, step=0.1)
 val3 = st.slider("BloodPressure", min_value=44.0, max_value=122.0, step=0.1)
-val4 = st.slider("BMI", min_value=0, max_value=100, step=0.1)
+val4 = st.slider("BMI", min_value=0.0, max_value=100.0, step=0.1)
 val5 = st.slider("DiabetesPedigreeFunction", min_value=0.078, max_value=1.781, step=0.001)
 val6 = st.slider("Age", min_value=18.0, max_value=99.0, step=0.1)
 
